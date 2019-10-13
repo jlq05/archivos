@@ -31,9 +31,9 @@ nav ul li a {
   text-decoration: none;
 }
  
-/*nav ul li:hover {
+nav ul li:hover {
   background: blue;
-}*/
+}
 .contenido {
     padding-top: 80px;
   }
@@ -49,10 +49,10 @@ nav ul li a {
   }
 
 
-/*div{
+div{
     padding: 10px
     
-}*/
+}
 /*div{
     background-color: blue
 }*/
