@@ -31,9 +31,9 @@ nav ul li a {
   text-decoration: none;
 }
  
-nav ul li:hover {
+/*nav ul li:hover {
   background: blue;
-}
+}*/
 .contenido {
     padding-top: 80px;
   }
@@ -63,9 +63,9 @@ footer{
     z-index: 100;
 
 }
-section{
+/*section{
     background-color: blue
-}
+}*/
 center{
     background-color: black
 }
