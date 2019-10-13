@@ -2,6 +2,7 @@
 p {
     margin-bottom: 20px;
     color: white;
+    
   }
   header {
     background: rgba(0,0,0,0.9);
@@ -72,4 +73,5 @@ center{
 }
 body{
   width: "550";
+  align-content: center;
 }
