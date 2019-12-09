@@ -1,0 +1,23 @@
+#fondo{
+    background: url(./img/Gotham_City-Urban_Landscape_Wallpaper_1920x1080.jpg)
+}
+
+#titulo{
+ color: beige;
+}
+
+#title{
+  color: white;
+  background-color: black;
+ }
+
+#canvas{
+  background:url(./img/images.jpg);
+  margin: 40px;
+}
+
+#boton{
+
+  margin: -50px 1000px;
+  align-items: center;
+}

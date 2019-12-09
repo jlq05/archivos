@@ -1,0 +1,51 @@
+<html lang="en">
+	<link rel="shortcut icon" href="./img/1211764788.png" type="image/x-icon">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title id="title"> THE GAME OF THE BATMAN</title>
+</head>
+</html>
+<link rel="stylesheet" href="styles.css">
+<html id="fondo">
+	
+	<audio src="./img/BatmanSoundtrack.mp3" preload="preload" autoplay="autoplay" loop="loop"> </audio>
+	
+	<div>
+		<header>
+				<h1 id="titulo">THE GAME OF THE BATMAN</h1>
+				
+				<form method="POST" action="http://localhost:3000/Jugador">
+					
+					<label for="nombre">Player</label>
+
+					<input id="nombre" name="nombre" autofocus required>
+					
+					<button type="submit">Send</button>
+
+				</form>
+
+				<button id="boton" onclick="inicializar()">Start</button>
+		</header>
+
+		<head>
+			<script src="Witch.js">
+				var servidor = "http://localhost:3000/puntuacion"
+				async function obtener_puntuacion(){
+				var respuesta = await fetch(servidor, {
+				method: "GET"})
+				var contenido = await respuesta.text()
+
+				console.log(contenido)
+				}
+			</script>
+		</head>
+
+    	<body>
+		
+			<canvas id="canvas" width="1000" height="500" style= "border: 3px solid black "></canvas> 
+
+		</body>
+	</div>
+</html>

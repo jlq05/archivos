@@ -1,0 +1,53 @@
+#lienzo{
+    background:url();
+    width: 520px;
+    height: 420px;
+    align-content: center;
+    justify-content: center;
+    margin: 172px 320px;
+    box-shadow: black inset;
+  }
+
+body{
+    overflow: hidden;
+    background:url(./img/65a7f20bfa462728e03e5de3df7f88cf.jpg);
+}
+
+#boton{
+    position: relative;
+    padding: 5px 30px;
+    margin: 75px -20px;
+    border: 2px solid transparent;
+    display: inline-block;
+    background: transparent;
+    font-kerning: auto;
+    text-transform: uppercase;
+    text-decoration: transparent;
+    background-color: transparent;
+    
+}
+
+#audio{
+    background-color: transparent;
+    background: transparent;
+}
+
+
+#tituloDelJuego{
+    width: 30px;
+    font-size: 1.5rem;
+    margin: -80px -30px;
+    margin-block-start: 0,83px;
+    margin-block-end: 0,83px;
+    color: white;
+    
+}
+
+#tamaño{
+    width: 100px;
+    height: 80px;
+    margin: 160px 220px;
+}
+
+
+
